@@ -1,0 +1,134 @@
+.right_line .elementor-divider-separator:before {
+    width: 0px !important;
+    flex-grow: 0 !important;
+    display: none;
+}
+/* Home Page Pricing Table style */
+.pricing_plan_wrap .eael-tabs-nav {
+    max-width: 400px;
+    background: #fff;
+    padding: 0px 7px 15px 7px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+@media only screen and (min-width:768px){
+    .pricing_plan_wrap .eael-tabs-nav {
+        max-width: 400px;
+        background: #fff;
+        padding: 12px 7px;
+        border-radius: 50px;
+        margin: 0 auto;
+    }
+}
+.pricing_plan_price .elementor-heading-title sup {
+    font-size: 30px;
+    top: -1em;
+}
+.pricing_plan_price .elementor-heading-title sub {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    left: -11px;
+}
+@media only screen and (min-width:768px){
+    .pricing_plan_price .elementor-heading-title{
+        font-size: 65px !important;
+    }
+}
+
+/* Home page contact us form */
+.contact_us_link .elementor-icon-box-description a{
+    color: #666666;
+    transition: 0.4s;
+}
+.contact_us_link .elementor-icon-box-description a:hover{
+    color: var(--e-global-color-primary);
+}
+.contact_us_btn{
+    background: var(--e-global-color-primary);
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'rubik';
+    color: var(--e-global-color-secondary);
+    transition: 0.4s;
+}
+.contact_us_btn:hover{
+    background: var(--e-global-color-secondary);
+    color: var(--e-global-color-accent);
+}
+.fluent_form_3 input, textarea{
+    padding: 15px !important;
+    outline: none;
+    border: 1px solid var(--e-global-color-ea6e822);
+    font: 17px;
+    color: var(--e-global-color-secondary);
+    font-weight: 400;
+}
+.fluent_form_3 input:focus {
+    outline: none;
+    border: 1px solid var(--e-global-color-primary) !important;
+}
+.fluent_form_3 textarea:focus {
+    outline: none;
+    border: 1px solid var(--e-global-color-primary) !important;
+}
+
+/* Footer Style */
+.fluent_form_2  input{
+    padding: 10px 15px;
+    outline: none;
+    border: 3px solid #dadbdd82;
+    background: transparent !important;
+    border-radius: 10px !important;
+    font-size: 16px;
+    color: var(--e-global-color-ea6e822);
+}
+.fluent_form_2  input:focus{
+    outline: none;
+    border: 2px solid var(--e-global-color-primary) !important;
+}
+.fluent_form_2  input::placeholder{
+    color: var(--e-global-color-ea6e822) !important;
+}
+.fluent_form_2 .ff-btn-submit{
+    background-color: var(--e-global-color-primary);
+    width: 65px;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+ 
+}
+.fluent_form_2 .ff-btn-submit img{
+   width: 100%;
+}
+#fluentform_2_success{
+    color: white;
+    font-family: 'rubik';
+}
+
+/* About Us page Style */
+nav.rank-math-breadcrumb p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--e-global-color-secondary);
+    font-family: 'Nunito';
+    text-transform: uppercase;
+}
+nav.rank-math-breadcrumb p a {
+    color: var(--e-global-color-secondary);
+    font-weight: 700;
+    font-family: 'Nunito';
+}
+nav.rank-math-breadcrumb p .separator {
+    color: var(--e-global-color-primary);
+    padding: 0 10px;
+}
+.about_us_count_down .elementor-counter-title span {
+    color: var(--e-global-color-primary);
+    padding-right: 6px;
+}
